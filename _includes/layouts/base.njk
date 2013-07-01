@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="stylesheet" href="https://use.typekit.net/rpy2naj.css">
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+  </head>
+  <body>
+    <header>
+      <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+    </header>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+    <section class="index">
+      <h3><span>Indice</span></h3>
+      <ol>
+      {%- for article in collections.article | sortByIndex -%}
+        <li{% if page.url == article.url %} aria-current="page"{% endif %}><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+      {%- endfor -%}
+      </ol>
+      <span class="fleur"></span>
+    </section>
+    <footer>
+      <a href="/informazioni">Informazioni</a><br>
+      2021 &mdash; <a href="{{ metadata.author.url }}">{{ metadata.author.name }}</a>
+    </footer>
+  </body>
+</html>

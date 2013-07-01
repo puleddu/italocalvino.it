@@ -1,0 +1,224 @@
+body {
+	font-family: "adobe-garamond-pro", Garamond, Georgia, serif;
+	font-size: 21px;
+	color: #282828;
+	padding: 0 5%;
+}
+
+a:link,
+a:hover,
+a:visited {
+	color: #111;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 .1em;
+}
+
+p a {
+  background-color: rgba(255,200,0,.3);
+}
+
+strong {
+	font-weight: 600;
+}
+
+blockquote {
+	margin: 2em 0;
+	padding: 0;
+	font-style: italic;
+}
+
+header {
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	max-width: 760px;
+	margin: 100px auto 120px;
+}
+
+header a:link,
+header a:visited,
+header a:hover {
+	text-decoration: none;
+	color: #282828;
+}
+
+section ul,
+section ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+section ul {
+	margin: 40px 0;
+	line-height: 38px;
+}
+
+section a:link,
+section a:hover,
+section a:visited {
+	color: #282828;
+	text-decoration: none;
+}
+
+.poetry {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.poetry .date {
+  font-size: .7em;
+	display: inline-block;
+	margin-top: .9em;
+	font-family: inconsolata, monospace;
+	color: #aaa;
+}
+
+.summary {
+	font-size: 19px;
+	line-height: 26px;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.article {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+.article h1 {
+  margin: 0 auto 40px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.footnote-ref {
+  line-height: 0;
+}
+
+.footnote-ref a:link,
+.footnote-ref a:visited {
+	line-height: 0;
+	font-weight: 600;
+	position: relative;
+	color: #c22026;
+}
+
+.footnotes {
+	font-size: .8em;
+}
+
+.footnotes ol {
+	padding-left: 1.2em;
+}
+
+.footnotes .footnote-backref {
+	color: #c22026;
+	font-size: 17px;
+	background: none;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.index {
+  position: relative;
+	max-width: 460px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	margin: 90px auto 0;
+}
+
+.fleur {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 50px;
+  height: 20px;
+  margin-left: -25px;
+  background: #fff url('/css/images/fleur.svg') no-repeat center;
+  background-size: contain;
+}
+
+.index h3 {
+	text-transform: lowercase;
+	font-size: 18px;
+	font-weight: 600;
+	font-variant: small-caps;
+	letter-spacing: .15em;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	top: -.8em;
+}
+
+.index h3 span {
+	display: inline-block;
+	background: #fff;
+	padding: 0 1em 0 1.3em;
+}
+
+.index ol {
+	counter-reset: li;
+	padding: 60px 0 75px;
+	margin: 0;
+}
+
+.index ol li a:before{
+	content: '0' counter(li);
+	counter-increment: li;
+	font-family: 'inconsolata', monospace;
+	line-height: 2.5em;
+	text-align: center;
+	font-size: 17px;
+	color: #c22026;
+	font-weight: 300;
+	text-decoration: underline;
+	margin-right: .8em;
+	position: relative;
+	top: -.1em;
+}
+
+.index ol li {
+	font-family: 'adobe-garamond-pro', Garamond, Georgia, serif;
+	font-size: 23px;
+	line-height: 40px;
+	white-space: nowrap;
+	overflow: auto;
+	width: 100%;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+hr {
+	max-width: 460px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000;
+	margin-top: -.5em;
+	border: 0;
+	background: #fff;
+	height: 1em;
+	width: 2em;
+	text-indent: .25em;
+}
+
+footer {
+	margin: 80px auto 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+::selection {
+	color: #111;
+	background-color: rgba(255,200,0,.3);
+	text-shadow: none;
+}
+
+::-moz-selection {
+	color: #111;
+	background-color: rgba(255,200,0,.3);
+	text-shadow: none;
+}
