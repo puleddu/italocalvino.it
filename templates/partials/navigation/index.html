@@ -1,0 +1,11 @@
+{% for child in page.root %}
+	{% if child.children %}
+    <ul class="articles">
+    	{% for child in child.children %}
+		<li><a href="{{ child.url }}">{{ child.title }} <span>{{ loop.index }}</span></a></li>
+		{% endfor %}
+    </ul>
+	{% else %}
+	<a href="{{ child.url }}">{{ child.title }} <span>{{ child.roman }}</span></a>
+	{% endif %}
+{% endfor %}
