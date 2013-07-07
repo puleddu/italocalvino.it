@@ -1,10 +1,5 @@
 {% include 'partials/head.html' %}
-	{% if page.images['cover.jpg'] %} 
-	<figure>
-	  <img src="{{ page.images['cover.jpg'].url }}" alt="{{ page.cover.alt }}" />
-	  <figcaption>{{ page.cover.caption }}</figcaption>
-	</figure>
-	{% endif %}
+	<aside id="summary">{{ page.summary }}</aside>
 	<section id="index">
 		{% include 'partials/navigation/index.html' %}
 	</section>

@@ -1,11 +1,14 @@
+<h3><span>{{ page.index_title }}</span></h3>
+<ol>
 {% for child in page.root %}
 	{% if child.children %}
     <ul class="articles">
     	{% for child in child.children %}
-		<li><a href="{{ child.url }}">{{ child.title }} <span>{{ loop.index }}</span></a></li>
+		<li><a href="{{ child.url }}">{{ child.title }}</a></li>
 		{% endfor %}
     </ul>
 	{% else %}
-	<a href="{{ child.url }}">{{ child.title }} <span>{{ child.roman }}</span></a>
+	<li><a href="{{ child.url }}">{{ child.title }}</a></li>
 	{% endif %}
 {% endfor %}
+</ol>
