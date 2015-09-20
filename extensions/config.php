@@ -22,5 +22,3 @@ class Config {
   // was intended. Defaults to use GFM style linebreaks
   public static $md_gfm_style_linebreaks = true;
 }
-
-?>
