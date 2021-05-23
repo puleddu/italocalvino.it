@@ -1,4 +1,12 @@
 {
+  "name": "italocalvino-11ty",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
   "dependencies": {
     "markdown-it": "^12.0.6",
     "markdown-it-anchor": "^7.1.0",
