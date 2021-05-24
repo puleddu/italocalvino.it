@@ -1,5 +1,6 @@
 ---
 title: La poubelle agréée <br>e gli omini arancio
+layout: layouts/page.njk
 ---
 
 Sono solito andare a letto senza accostare gli scurini; non credo di averlo mai fatto; per pigrizia, penso. È un po’ di tempo che il roboante mezzo dalle dimensioni ciclopiche non fa vibrare più i vetri che danno sulla strada, nel sollevare quasi come un genitore fa con il proprio figlio appena nato i voluminosi cassonetti, alleggerendoli dal peso della giornata.

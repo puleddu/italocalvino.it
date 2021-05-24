@@ -1,6 +1,6 @@
 ---
 title: Biografia
-permalink: biografia/
+layout: layouts/page.njk
 tags: article
 index: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: L'impero di Kublai
-permalink: pedro-cano/
+layout: layouts/page.njk
 tags: article
 index: 5
 ---

@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets');
 
   // Copy PDF files with the articles
-  eleventyConfig.addPassthroughCopy('articles/**/*.pdf');
+  eleventyConfig.addPassthroughCopy('!(_site)**/*.pdf');
 
   // Markdown
   let markdownLibrary = markdownIt({

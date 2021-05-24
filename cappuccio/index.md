@@ -1,6 +1,6 @@
 ---
 title: Il cappuccio da sci celeste-cielo
-permalink: cappuccio/
+layout: layouts/page.njk
 tags: article
 index: 2
 ---

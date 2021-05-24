@@ -1,6 +1,6 @@
 ---
 title: Berenice, città nascosta
-permalink: berenice/
+layout: layouts/page.njk
 tags: article
 index: 3
 ---

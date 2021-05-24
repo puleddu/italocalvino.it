@@ -1,6 +1,6 @@
 ---
 title: Calvino poeta
-permalink: calvino-poeta/
+layout: layouts/page.njk
 tags: article
 index: 4
 ---
