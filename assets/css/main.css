@@ -137,7 +137,7 @@ section a:visited {
   width: 50px;
   height: 20px;
   margin-left: -25px;
-  background: #fff url('/css/images/fleur.svg') no-repeat center;
+  background: #fff url('../images/fleur.svg') no-repeat center;
   background-size: contain;
 }
 
