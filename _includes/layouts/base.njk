@@ -6,7 +6,11 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="https://use.typekit.net/rpy2naj.css">
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | url }}">
+    <link rel="icon" href="{{ '/assets/images/icon.svg' | url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | url }}">
+    <link rel="manifest" href="{{ '/assets/manifest.webmanifest' | url }}">
   </head>
   <body>
     <header>

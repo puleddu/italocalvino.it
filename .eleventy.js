@@ -5,8 +5,7 @@ const markdownItFootnote = require('markdown-it-footnote');
 
 module.exports = function(eleventyConfig) {
   // Copy the `imges` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy('images');
-  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('assets');
 
   // Copy PDF files with the articles
   eleventyConfig.addPassthroughCopy('articles/**/*.pdf');
