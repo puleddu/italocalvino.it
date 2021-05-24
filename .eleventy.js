@@ -34,12 +34,10 @@ module.exports = function(eleventyConfig) {
   };
   eleventyConfig.setLibrary('md', markdownLibrary);
 
-  // Create the filter function
+  // Create and add the sort filter
   function sortByIndex(values) {
     let vals = [...values]
     return vals.sort((a, b) => Math.sign(a.data.index - b.data.index))
   }
-
-  // Add the filter
-  eleventyConfig.addFilter('sortByIndex', sortByIndex)
+  eleventyConfig.addFilter('sortByIndex', sortByIndex);
 };

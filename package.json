@@ -2,9 +2,9 @@
   "name": "italocalvino-11ty",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy",
     "test": "jest"
   },
   "dependencies": {
