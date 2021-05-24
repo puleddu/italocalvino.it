@@ -1,5 +1,6 @@
 ---
 title: Biografia
+permalink: biografia/
 tags: article
 index: 1
 ---

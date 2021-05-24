@@ -1,5 +1,6 @@
 ---
 title: Berenice, città nascosta
+permalink: berenice/
 tags: article
 index: 3
 ---

@@ -1,5 +1,6 @@
 ---
 title: Il cappuccio da sci celeste-cielo
+permalink: cappuccio/
 tags: article
 index: 2
 ---

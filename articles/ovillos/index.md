@@ -1,5 +1,6 @@
 ---
 title: Los ovillos de Italo Calvino
+permalink: ovillos/
 tags: article
 index: 6
 ---

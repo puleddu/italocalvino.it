@@ -1,5 +1,6 @@
 ---
 title: Calvino poeta
+permalink: calvino-poeta/
 tags: article
 index: 4
 ---
